@@ -1,0 +1,19 @@
+[15-Apr-2019 04:58:21 Europe/Moscow] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/g46869/public_html/example-dom-vis.ru/include/functions.php on line 8
+[15-Apr-2019 04:58:23 Europe/Moscow] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/g46869/public_html/example-dom-vis.ru/include/functions.php on line 8
+[15-Apr-2019 05:06:12 Europe/Moscow] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/g46869/public_html/example-dom-vis.ru/include/functions.php on line 16
+[15-Apr-2019 05:09:17 Europe/Moscow] PHP Notice:  Undefined variable: mysqli in /home/g46869/public_html/example-dom-vis.ru/include/database.php on line 10
+[15-Apr-2019 05:09:17 Europe/Moscow] PHP Notice:  Trying to get property 'connect_errno' of non-object in /home/g46869/public_html/example-dom-vis.ru/include/database.php on line 10
+[15-Apr-2019 05:09:17 Europe/Moscow] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/g46869/public_html/example-dom-vis.ru/include/functions.php on line 8
+[15-Apr-2019 05:09:59 Europe/Moscow] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/g46869/public_html/example-dom-vis.ru/include/functions.php on line 8
+[15-Apr-2019 12:16:01 Europe/Moscow] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/g46869/public_html/example-dom-vis.ru/include/database.php on line 8
+[15-Apr-2019 12:16:01 Europe/Moscow] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/g46869/public_html/example-dom-vis.ru/include/functions.php on line 36
+[15-Apr-2019 12:16:01 Europe/Moscow] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/g46869/public_html/example-dom-vis.ru/include/database.php on line 8
+[15-Apr-2019 12:16:01 Europe/Moscow] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/g46869/public_html/example-dom-vis.ru/include/functions.php on line 42
+[17-Apr-2019 15:07:01 Europe/Moscow] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/g46869/public_html/example-dom-vis.ru/include/database.php on line 8
+[17-Apr-2019 15:07:01 Europe/Moscow] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/g46869/public_html/example-dom-vis.ru/include/functions.php on line 42
+[17-Apr-2019 15:07:01 Europe/Moscow] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/g46869/public_html/example-dom-vis.ru/include/database.php on line 8
+[17-Apr-2019 15:07:01 Europe/Moscow] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/g46869/public_html/example-dom-vis.ru/include/functions.php on line 36
+[17-Apr-2019 15:07:01 Europe/Moscow] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/g46869/public_html/example-dom-vis.ru/include/database.php on line 8
+[17-Apr-2019 15:07:01 Europe/Moscow] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/g46869/public_html/example-dom-vis.ru/include/functions.php on line 54
+[17-Apr-2019 15:07:01 Europe/Moscow] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/g46869/public_html/example-dom-vis.ru/include/database.php on line 8
+[17-Apr-2019 15:07:01 Europe/Moscow] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/g46869/public_html/example-dom-vis.ru/include/functions.php on line 48

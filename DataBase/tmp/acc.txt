@@ -1,0 +1,3 @@
+name_db: cf04822_chicken
+login: cf04822_chicken
+pass: wBwEd3Ze

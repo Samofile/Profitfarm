@@ -1,0 +1,4 @@
+https://vh201.timeweb.ru/pma/db_structure.php?server=1&db=cf04822_chicken
+name_db: cf04822_chicken
+login: cf04822_chicken
+pass: wBwEd3Ze

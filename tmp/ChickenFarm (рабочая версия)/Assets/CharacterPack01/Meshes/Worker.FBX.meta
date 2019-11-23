@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: eb37de40000ca5d4a89cb992fa9e9930
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Worker Bip01
+    100004: Worker Body
+    100006: Worker EYE R
+    100008: Worker EYE R01
+    100010: Worker Footsteps
+    100012: Worker Head
+    100014: Worker HeadNub
+    100016: Worker L Calf
+    100018: Worker L Clavicle
+    100020: Worker L Finger0
+    100022: Worker L Finger01
+    100024: Worker L Finger0Nub
+    100026: Worker L Finger1
+    100028: Worker L Finger11
+    100030: Worker L Finger1Nub
+    100032: Worker L Foot
+    100034: Worker L Forearm
+    100036: Worker L Hand
+    100038: Worker L Thigh
+    100040: Worker L Toe0
+    100042: Worker L Toe0Nub
+    100044: Worker L UpperArm
+    100046: Worker Neck
+    100048: Worker Pelvis
+    100050: Worker R Calf
+    100052: Worker R Clavicle
+    100054: Worker R Finger0
+    100056: Worker R Finger01
+    100058: Worker R Finger0Nub
+    100060: Worker R Finger1
+    100062: Worker R Finger11
+    100064: Worker R Finger1Nub
+    100066: Worker R Foot
+    100068: Worker R Forearm
+    100070: Worker R Hand
+    100072: Worker R Thigh
+    100074: Worker R Toe0
+    100076: Worker R Toe0Nub
+    100078: Worker R UpperArm
+    100080: Worker Spine
+    100082: Worker Spine1
+    100084: Worker Spine2
+    100086: Worker talk chin
+    100088: Worker talk lower lip01
+    100090: Worker talk lower lip02
+    100092: Worker talk mouth l01
+    100094: Worker talk mouth l02
+    100096: Worker talk mouth r01
+    100098: Worker talk mouth r02
+    100100: Worker talk upper lip01
+    100102: Worker talk upper lip02
+    100104: Worker X_l01
+    100106: Worker X_l02
+    100108: Worker X_r01
+    100110: Worker X_r02
+    100112: Worker Z_l01
+    100114: Worker Z_l02
+    100116: Worker Z_r01
+    100118: Worker Z_r02
+    400000: //RootNode
+    400002: Worker Bip01
+    400004: Worker Body
+    400006: Worker EYE R
+    400008: Worker EYE R01
+    400010: Worker Footsteps
+    400012: Worker Head
+    400014: Worker HeadNub
+    400016: Worker L Calf
+    400018: Worker L Clavicle
+    400020: Worker L Finger0
+    400022: Worker L Finger01
+    400024: Worker L Finger0Nub
+    400026: Worker L Finger1
+    400028: Worker L Finger11
+    400030: Worker L Finger1Nub
+    400032: Worker L Foot
+    400034: Worker L Forearm
+    400036: Worker L Hand
+    400038: Worker L Thigh
+    400040: Worker L Toe0
+    400042: Worker L Toe0Nub
+    400044: Worker L UpperArm
+    400046: Worker Neck
+    400048: Worker Pelvis
+    400050: Worker R Calf
+    400052: Worker R Clavicle
+    400054: Worker R Finger0
+    400056: Worker R Finger01
+    400058: Worker R Finger0Nub
+    400060: Worker R Finger1
+    400062: Worker R Finger11
+    400064: Worker R Finger1Nub
+    400066: Worker R Foot
+    400068: Worker R Forearm
+    400070: Worker R Hand
+    400072: Worker R Thigh
+    400074: Worker R Toe0
+    400076: Worker R Toe0Nub
+    400078: Worker R UpperArm
+    400080: Worker Spine
+    400082: Worker Spine1
+    400084: Worker Spine2
+    400086: Worker talk chin
+    400088: Worker talk lower lip01
+    400090: Worker talk lower lip02
+    400092: Worker talk mouth l01
+    400094: Worker talk mouth l02
+    400096: Worker talk mouth r01
+    400098: Worker talk mouth r02
+    400100: Worker talk upper lip01
+    400102: Worker talk upper lip02
+    400104: Worker X_l01
+    400106: Worker X_l02
+    400108: Worker X_r01
+    400110: Worker X_r02
+    400112: Worker Z_l01
+    400114: Worker Z_l02
+    400116: Worker Z_r01
+    400118: Worker Z_r02
+    2300000: Worker EYE R
+    2300002: Worker EYE R01
+    3300000: Worker EYE R
+    3300002: Worker EYE R01
+    4300000: Worker Body
+    4300002: Worker EYE R
+    4300004: Worker EYE R01
+    9500000: //RootNode
+    13700000: Worker Body
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

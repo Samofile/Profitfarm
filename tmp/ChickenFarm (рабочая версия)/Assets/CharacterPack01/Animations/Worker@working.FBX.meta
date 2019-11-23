@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: 3dc5a73e26bf6f940ae75cf301d5a0ab
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Worker Bip01
+    100002: Worker Head
+    100004: Worker HeadNub
+    100006: Worker L Calf
+    100008: Worker L Clavicle
+    100010: Worker L Finger0
+    100012: Worker L Finger01
+    100014: Worker L Finger0Nub
+    100016: Worker L Finger1
+    100018: Worker L Finger11
+    100020: Worker L Finger1Nub
+    100022: Worker L Foot
+    100024: Worker L Forearm
+    100026: Worker L Hand
+    100028: Worker L Thigh
+    100030: Worker L Toe0
+    100032: Worker L Toe0Nub
+    100034: Worker L UpperArm
+    100036: Worker Neck
+    100038: Worker Pelvis
+    100040: Worker R Calf
+    100042: Worker R Clavicle
+    100044: Worker R Finger0
+    100046: Worker R Finger01
+    100048: Worker R Finger0Nub
+    100050: Worker R Finger1
+    100052: Worker R Finger11
+    100054: Worker R Finger1Nub
+    100056: Worker R Foot
+    100058: Worker R Forearm
+    100060: Worker R Hand
+    100062: Worker R Thigh
+    100064: Worker R Toe0
+    100066: Worker R Toe0Nub
+    100068: Worker R UpperArm
+    100070: Worker Spine
+    100072: Worker Spine1
+    100074: Worker Spine2
+    100076: Worker talk chin
+    100078: Worker talk lower lip01
+    100080: Worker talk lower lip02
+    100082: Worker talk mouth l01
+    100084: Worker talk mouth l02
+    100086: Worker talk mouth r01
+    100088: Worker talk mouth r02
+    100090: Worker talk upper lip01
+    100092: Worker talk upper lip02
+    100094: Worker X_l01
+    100096: Worker X_l02
+    100098: Worker X_r01
+    100100: Worker X_r02
+    100102: Worker Z_l01
+    100104: Worker Z_l02
+    100106: Worker Z_r01
+    100108: Worker Z_r02
+    100110: //RootNode
+    400000: Worker Bip01
+    400002: Worker Head
+    400004: Worker HeadNub
+    400006: Worker L Calf
+    400008: Worker L Clavicle
+    400010: Worker L Finger0
+    400012: Worker L Finger01
+    400014: Worker L Finger0Nub
+    400016: Worker L Finger1
+    400018: Worker L Finger11
+    400020: Worker L Finger1Nub
+    400022: Worker L Foot
+    400024: Worker L Forearm
+    400026: Worker L Hand
+    400028: Worker L Thigh
+    400030: Worker L Toe0
+    400032: Worker L Toe0Nub
+    400034: Worker L UpperArm
+    400036: Worker Neck
+    400038: Worker Pelvis
+    400040: Worker R Calf
+    400042: Worker R Clavicle
+    400044: Worker R Finger0
+    400046: Worker R Finger01
+    400048: Worker R Finger0Nub
+    400050: Worker R Finger1
+    400052: Worker R Finger11
+    400054: Worker R Finger1Nub
+    400056: Worker R Foot
+    400058: Worker R Forearm
+    400060: Worker R Hand
+    400062: Worker R Thigh
+    400064: Worker R Toe0
+    400066: Worker R Toe0Nub
+    400068: Worker R UpperArm
+    400070: Worker Spine
+    400072: Worker Spine1
+    400074: Worker Spine2
+    400076: Worker talk chin
+    400078: Worker talk lower lip01
+    400080: Worker talk lower lip02
+    400082: Worker talk mouth l01
+    400084: Worker talk mouth l02
+    400086: Worker talk mouth r01
+    400088: Worker talk mouth r02
+    400090: Worker talk upper lip01
+    400092: Worker talk upper lip02
+    400094: Worker X_l01
+    400096: Worker X_l02
+    400098: Worker X_r01
+    400100: Worker X_r02
+    400102: Worker Z_l01
+    400104: Worker Z_l02
+    400106: Worker Z_r01
+    400108: Worker Z_r02
+    400110: //RootNode
+    7400000: working
+    9500000: //RootNode
+    11100000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: working
+      takeName: Worker@working
+      firstFrame: 0
+      lastFrame: 283
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Worker Bip01
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker L Thigh
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker L Thigh/Worker L Calf
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker L Thigh/Worker L Calf/Worker
+          L Foot
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker L Thigh/Worker L Calf/Worker
+          L Foot/Worker L Toe0
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker L Thigh/Worker L Calf/Worker
+          L Foot/Worker L Toe0/Worker L Toe0Nub
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker R Thigh
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker R Thigh/Worker R Calf
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker R Thigh/Worker R Calf/Worker
+          R Foot
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker R Thigh/Worker R Calf/Worker
+          R Foot/Worker R Toe0
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker R Thigh/Worker R Calf/Worker
+          R Foot/Worker R Toe0/Worker R Toe0Nub
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker HeadNub
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker talk chin
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker talk chin/Worker talk lower lip01
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker talk chin/Worker talk lower lip01/Worker talk lower
+          lip02
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker talk mouth l01
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker talk mouth l01/Worker talk mouth l02
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker talk mouth r01
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker talk mouth r01/Worker talk mouth r02
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker talk upper lip01
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker talk upper lip01/Worker talk upper lip02
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker X_l01
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker X_l01/Worker X_l02
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker X_r01
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker X_r01/Worker X_r02
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker Z_l01
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker Z_l01/Worker Z_l02
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker Z_r01
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker Head/Worker Z_r01/Worker Z_r02
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker L Clavicle
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker L Clavicle/Worker L UpperArm
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker L Clavicle/Worker L UpperArm/Worker L Forearm
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker L Clavicle/Worker L UpperArm/Worker L Forearm/Worker L Hand
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker L Clavicle/Worker L UpperArm/Worker L Forearm/Worker L Hand/Worker
+          L Finger0
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker L Clavicle/Worker L UpperArm/Worker L Forearm/Worker L Hand/Worker
+          L Finger0/Worker L Finger01
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker L Clavicle/Worker L UpperArm/Worker L Forearm/Worker L Hand/Worker
+          L Finger0/Worker L Finger01/Worker L Finger0Nub
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker L Clavicle/Worker L UpperArm/Worker L Forearm/Worker L Hand/Worker
+          L Finger1
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker L Clavicle/Worker L UpperArm/Worker L Forearm/Worker L Hand/Worker
+          L Finger1/Worker L Finger11
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker L Clavicle/Worker L UpperArm/Worker L Forearm/Worker L Hand/Worker
+          L Finger1/Worker L Finger11/Worker L Finger1Nub
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker R Clavicle
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker R Clavicle/Worker R UpperArm
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker R Clavicle/Worker R UpperArm/Worker R Forearm
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker R Clavicle/Worker R UpperArm/Worker R Forearm/Worker R Hand
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker R Clavicle/Worker R UpperArm/Worker R Forearm/Worker R Hand/Worker
+          R Finger0
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker R Clavicle/Worker R UpperArm/Worker R Forearm/Worker R Hand/Worker
+          R Finger0/Worker R Finger01
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker R Clavicle/Worker R UpperArm/Worker R Forearm/Worker R Hand/Worker
+          R Finger0/Worker R Finger01/Worker R Finger0Nub
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker R Clavicle/Worker R UpperArm/Worker R Forearm/Worker R Hand/Worker
+          R Finger1
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker R Clavicle/Worker R UpperArm/Worker R Forearm/Worker R Hand/Worker
+          R Finger1/Worker R Finger11
+        weight: 1
+      - path: Worker Bip01/Worker Pelvis/Worker Spine/Worker Spine1/Worker Spine2/Worker
+          Neck/Worker R Clavicle/Worker R UpperArm/Worker R Forearm/Worker R Hand/Worker
+          R Finger1/Worker R Finger11/Worker R Finger1Nub
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: Worker@working(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.11993099, y: 0.06725557, z: -0.00804885, w: 0.99046886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Worker Bip01
+      parentName: Worker@working(Clone)
+      position: {x: 0.038645335, y: 0.30057013, z: -0.15486608}
+      rotation: {x: -0.4583984, y: 0.38138932, z: 0.53596556, w: 0.59762365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Worker Pelvis
+      parentName: Worker Bip01
+      position: {x: -0.1899898, y: 0.020828545, z: 0.63073385}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Worker Spine
+      parentName: Worker Pelvis
+      position: {x: -0.02871683, y: -0.00013431549, z: -0.000012569427}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Worker Spine1
+      parentName: Worker Spine
+      position: {x: -0.16917525, y: -0.00015316009, z: 0.00000065922734}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Worker Spine2
+      parentName: Worker Spine1
+      position: {x: -0.2025174, y: -0.00020065307, z: 0.0000019192696}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Worker Neck
+      parentName: Worker Spine2
+      position: {x: -0.24148291, y: -0.034588013, z: -0.00000026226044}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999999}
+    - name: Worker Head
+      parentName: Worker Neck
+      position: {x: -0.046182785, y: -0.000000076293944, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Worker HeadNub
+      parentName: Worker Head
+      position: {x: -0.21165916, y: 0.000000038146972, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Worker Z_l01
+      parentName: Worker Head
+      position: {x: -0.08977089, y: 0.06091415, z: 0.034166086}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9036282, y: 0.9999998, z: 1.0000002}
+    - name: Worker Z_l02
+      parentName: Worker Z_l01
+      position: {x: -0.03463192, y: -0.0000005340576, z: -0.0000000667572}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.54988015, y: 1, z: 0.99999994}
+    - name: Worker Z_r01
+      parentName: Worker Head
+      position: {x: -0.08978905, y: 0.06090797, z: -0.033934288}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.90362793, y: 0.9999999, z: 0.99999976}
+    - name: Worker Z_r02
+      parentName: Worker Z_r01
+      position: {x: -0.03463173, y: -0.00000045776366, z: -0.000000023841856}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.54987997, y: 0.9999998, z: 1}
+    - name: Worker X_r01
+      parentName: Worker Head
+      position: {x: -0.10772934, y: 0.01881523, z: -0.027394619}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+    - name: Worker X_r02
+      parentName: Worker X_r01
+      position: {x: -0.073083304, y: 0.00000030517577, z: 0.0000000047683715}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Worker X_l01
+      parentName: Worker Head
+      position: {x: -0.10772926, y: 0.01881523, z: 0.024753913}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.99999994}
+    - name: Worker X_l02
+      parentName: Worker X_l01
+      position: {x: -0.073083326, y: 0.00000022888183, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Worker talk chin
+      parentName: Worker Head
+      position: {x: -0.04800972, y: 0.009676666, z: -0.000381217}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9659341, y: 0.90930873, z: 0.9365705}
+    - name: Worker talk lower lip01
+      parentName: Worker talk chin
+      position: {x: -0.10765693, y: 0.0000014495849, z: 0.000000023841856}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.728163, y: 0.67178464, z: 1}
+    - name: Worker talk lower lip02
+      parentName: Worker talk lower lip01
+      position: {x: -0.04208664, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+    - name: Worker talk mouth l01
+      parentName: Worker Head
+      position: {x: -0.07804763, y: 0.052814063, z: 0.051740512}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Worker talk mouth l02
+      parentName: Worker talk mouth l01
+      position: {x: -0.0641732, y: 0.000000076293944, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Worker talk mouth r01
+      parentName: Worker Head
+      position: {x: -0.078047484, y: 0.052814253, z: -0.05173133}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1.0000001, y: -1.0000001, z: -1.0000002}
+    - name: Worker talk mouth r02
+      parentName: Worker talk mouth r01
+      position: {x: -0.0641732, y: 0.000000057220458, z: 0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Worker talk upper lip01
+      parentName: Worker Head
+      position: {x: -0.055504836, y: 0.1073582, z: 0.0006360817}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.72096145, y: 0.72096145, z: 0.72096145}
+    - name: Worker talk upper lip02
+      parentName: Worker talk upper lip01
+      position: {x: -0.021383286, y: -0.000000038146972, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Worker L Clavicle
+      parentName: Worker Neck
+      position: {x: 0.049057655, y: 0.005094757, z: 0.030518306}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: -0.7071068, w: 0.000000030908623}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Worker L UpperArm
+      parentName: Worker L Clavicle
+      position: {x: -0.12916121, y: -0.000000038146972, z: -0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Worker L Forearm
+      parentName: Worker L UpperArm
+      position: {x: -0.27513805, y: 0.000000019073486, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Worker L Hand
+      parentName: Worker L Forearm
+      position: {x: -0.24850625, y: 0.000000038146972, z: -0.000000038146972}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: -0.7071068}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: Worker L Finger0
+      parentName: Worker L Hand
+      position: {x: -0.042974472, y: 0.030033892, z: -0.036508787}
+      rotation: {x: 0, y: 0.3826835, z: 0, w: -0.9238795}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Worker L Finger01
+      parentName: Worker L Finger0
+      position: {x: -0.03130535, y: 0, z: -0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Worker L Finger0Nub
+      parentName: Worker L Finger01
+      position: {x: -0.029867515, y: 0.000000019073486, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Worker L Finger1
+      parentName: Worker L Hand
+      position: {x: -0.09709064, y: -0.012999553, z: -0.0025297545}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Worker L Finger11
+      parentName: Worker L Finger1
+      position: {x: -0.036171492, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Worker L Finger1Nub
+      parentName: Worker L Finger11
+      position: {x: -0.056294594, y: 0.000000038146972, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Worker R Clavicle
+      parentName: Worker Neck
+      position: {x: 0.049261894, y: 0.004682388, z: -0.03025389}
+      rotation: {x: 0.7071068, y: -0.000000030908623, z: 0.7071068, w: -0.000000030908623}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Worker R UpperArm
+      parentName: Worker R Clavicle
+      position: {x: -0.12916118, y: 0.000000038146972, z: -0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Worker R Forearm
+      parentName: Worker R UpperArm
+      position: {x: -0.27513808, y: 0.000000009536743, z: 0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Worker R Hand
+      parentName: Worker R Forearm
+      position: {x: -0.24850628, y: 0, z: -0.000000076293944}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Worker R Finger0
+      parentName: Worker R Hand
+      position: {x: -0.042974472, y: 0.030033892, z: 0.036508713}
+      rotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Worker R Finger01
+      parentName: Worker R Finger0
+      position: {x: -0.03130535, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Worker R Finger0Nub
+      parentName: Worker R Finger01
+      position: {x: -0.029867476, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1, y: -1, z: -1.0000001}
+    - name: Worker R Finger1
+      parentName: Worker R Hand
+      position: {x: -0.0970906, y: -0.012999515, z: 0.0025297164}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Worker R Finger11
+      parentName: Worker R Finger1
+      position: {x: -0.036171455, y: 0.000000038146972, z: -0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: Worker R Finger1Nub
+      parentName: Worker R Finger11
+      position: {x: -0.056294594, y: 0, z: 0.000000038146972}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1, y: -1, z: -1}
+    - name: Worker L Thigh
+      parentName: Worker Spine
+      position: {x: 0.03657524, y: 0.0034761047, z: 0.10226141}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Worker L Calf
+      parentName: Worker L Thigh
+      position: {x: -0.4077186, y: 0.000000038146972, z: 0.000000023841856}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Worker L Foot
+      parentName: Worker L Calf
+      position: {x: -0.3540714, y: 0.000000047683713, z: -0.0000000023841857}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: Worker L Toe0
+      parentName: Worker L Foot
+      position: {x: -0.08222409, y: 0.10028259, z: 0.000000017881392}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Worker L Toe0Nub
+      parentName: Worker L Toe0
+      position: {x: -0.10843347, y: 0, z: -0.000000013113022}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: -1.0000001, y: -1.0000001, z: -1.0000001}
+    - name: Worker R Thigh
+      parentName: Worker Spine
+      position: {x: 0.020531597, y: 0.0007689285, z: -0.10667614}
+      rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Worker R Calf
+      parentName: Worker R Thigh
+      position: {x: -0.40771866, y: -0.000000038146972, z: -0.000000019073486}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Worker R Foot
+      parentName: Worker R Calf
+      position: {x: -0.35407138, y: -0.000000009536743, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Worker R Toe0
+      parentName: Worker R Foot
+      position: {x: -0.082224116, y: 0.1002826, z: -0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: Worker R Toe0Nub
+      parentName: Worker R Toe0
+      position: {x: -0.10843345, y: 0.000000014305114, z: 0.000000009536743}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
