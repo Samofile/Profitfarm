@@ -1,0 +1,38 @@
+fileFormatVersion: 2
+guid: 04fad29c584bec54ab80428acf760504
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - DARK_PANEL: {instanceID: 0}
+  - MAIN_PANEL: {instanceID: 0}
+  - anims: {instanceID: 0}
+  - a_char: {instanceID: 0}
+  - a_robot: {instanceID: 0}
+  - egg: {instanceID: 0}
+  - kal: {instanceID: 0}
+  - WaterLamp: {fileID: 3432709947844451445, guid: ece6bb535c34a4793951db08e4657467,
+      type: 3}
+  - _balance_text: {instanceID: 0}
+  - if_name: {instanceID: 0}
+  - pass: {instanceID: 0}
+  - error: {instanceID: 0}
+  - START_PANEL: {instanceID: 0}
+  - check_box: {instanceID: 0}
+  - buts: {instanceID: 0}
+  - drk: {instanceID: 0}
+  - name_txt: {instanceID: 0}
+  - conn: {instanceID: 0}
+  - ALL_INIT: {instanceID: 0}
+  - ref_text: {instanceID: 0}
+  - u_out: {instanceID: 0}
+  - is_exist: {instanceID: 0}
+  - inputText: {instanceID: 0}
+  - aenableUPDPacks: {instanceID: 0}
+  - welcome: {instanceID: 0}
+  - dev: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

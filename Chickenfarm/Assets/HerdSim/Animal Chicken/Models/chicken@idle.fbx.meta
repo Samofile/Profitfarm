@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 35c21acb1cc46bd429273917cd038361
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ChickenMesh
+    100004: Head1
+    100006: joint1
+    100008: joint11
+    100010: joint12
+    100012: joint20
+    100014: joint21
+    100016: joint22
+    100018: joint28
+    100020: joint29
+    100022: joint3
+    100024: joint30
+    100026: joint32
+    100028: joint33
+    100030: joint34
+    100032: joint35
+    100034: joint36
+    100036: joint37
+    100038: joint38
+    100040: joint39
+    100042: joint4
+    100044: joint40
+    100046: joint41
+    100048: joint42
+    100050: joint43
+    100052: joint5
+    100054: joint6
+    100056: joint7
+    100058: joint8
+    100060: joint9
+    100062: Leg1
+    100064: Leg2
+    100066: Tail1
+    100068: Wing1
+    100070: Wing2
+    400000: //RootNode
+    400002: ChickenMesh
+    400004: Head1
+    400006: joint1
+    400008: joint11
+    400010: joint12
+    400012: joint20
+    400014: joint21
+    400016: joint22
+    400018: joint28
+    400020: joint29
+    400022: joint3
+    400024: joint30
+    400026: joint32
+    400028: joint33
+    400030: joint34
+    400032: joint35
+    400034: joint36
+    400036: joint37
+    400038: joint38
+    400040: joint39
+    400042: joint4
+    400044: joint40
+    400046: joint41
+    400048: joint42
+    400050: joint43
+    400052: joint5
+    400054: joint6
+    400056: joint7
+    400058: joint8
+    400060: joint9
+    400062: Leg1
+    400064: Leg2
+    400066: Tail1
+    400068: Wing1
+    400070: Wing2
+    4300000: ChickenMesh
+    7400000: idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: ChickenMesh
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 200
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.007
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.007
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 145
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: chicken@idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ChickenMesh
+      parentName: chicken@idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint1
+      parentName: chicken@idle(Clone)
+      position: {x: -2.7610133e-33, y: 0.3522499, z: -0.04061641}
+      rotation: {x: -0.15742739, y: 0.68935955, z: -0.15742739, w: 0.6893596}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000005}
+    - name: Head1
+      parentName: joint1
+      position: {x: -0.18226711, y: -3.167936e-18, z: 4.047143e-17}
+      rotation: {x: 0.0000000074505797, y: -0, z: -0.31814012, w: 0.9480437}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000006}
+    - name: joint3
+      parentName: Head1
+      position: {x: -0.10193614, y: 5.595524e-17, z: 2.1672559e-17}
+      rotation: {x: 0.000000008070331, y: -0.000000025167822, z: -0.22649765, w: 0.9740118}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000004}
+    - name: joint4
+      parentName: joint3
+      position: {x: -0.10257673, y: 4.3520745e-17, z: 1.5735387e-17}
+      rotation: {x: -0.000000005083901, y: -0.000000007995678, z: 0.22824389, w: 0.9736041}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000006}
+    - name: joint5
+      parentName: joint4
+      position: {x: -0.048126742, y: 4.662937e-18, z: 1.0993895e-17}
+      rotation: {x: -0.1379514, y: 0.6903667, z: 0.13916054, w: 0.6964177}
+      scale: {x: 1.0000002, y: 0.99999976, z: 1}
+    - name: joint6
+      parentName: joint5
+      position: {x: -0.05447577, y: -7.460699e-17, z: 1.119097e-17}
+      rotation: {x: -0.0014631443, y: 0.004045127, z: 0.026279302, w: 0.9996455}
+      scale: {x: 1.0000008, y: 0.99999976, z: 1.0000005}
+    - name: joint7
+      parentName: joint6
+      position: {x: -0.026208645, y: 5.1292305e-17, z: 2.4458066e-18}
+      rotation: {x: -0.00254718, y: -0.016724413, z: 0.08671711, w: 0.9960894}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000006}
+    - name: joint8
+      parentName: joint7
+      position: {x: -0.010761466, y: 5.789813e-17, z: 2.892202e-19}
+      rotation: {x: 0.0000000106055245, y: 0.000000017953457, z: -0.43388507, w: 0.9009683}
+      scale: {x: 0.99999917, y: 1, z: 0.9999997}
+    - name: joint9
+      parentName: joint8
+      position: {x: -0.027184688, y: 5.2846617e-17, z: 5.2864253e-18}
+      rotation: {x: -0.12361602, y: -0.6962177, z: -0.12361602, w: 0.6962177}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Tail1
+      parentName: joint1
+      position: {x: 0.12371274, y: 0.13327524, z: -4.9664533e-17}
+      rotation: {x: 0.7499072, y: -0.6615431, z: -0.000000029802322, w: 0.000000059604645}
+      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000007}
+    - name: joint11
+      parentName: Tail1
+      position: {x: -0.12025969, y: 1.2434498e-17, z: 1.6540442e-17}
+      rotation: {x: 0.000000003329642, y: 4.147615e-10, z: 0.08117645, w: 0.9966998}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000007}
+    - name: joint12
+      parentName: joint11
+      position: {x: -0.1164559, y: -1.2434498e-16, z: 1.804145e-17}
+      rotation: {x: -0.6937306, y: 0.7202346, z: -8.65804e-17, w: -1.6229025e-18}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wing1
+      parentName: joint1
+      position: {x: -0.13915922, y: -0.03037354, z: -0.12678741}
+      rotation: {x: 0.12209773, y: -0.9008674, z: 0.12879163, w: 0.39616016}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000005}
+    - name: joint20
+      parentName: Wing1
+      position: {x: -0.07114652, y: 7.926993e-17, z: -1.7988629e-17}
+      rotation: {x: -0.040072907, y: -0.31607068, z: -0.05068583, w: 0.9465329}
+      scale: {x: 1.000001, y: 0.99999994, z: 1.0000006}
+    - name: joint21
+      parentName: joint20
+      position: {x: -0.12263247, y: 5.2846617e-17, z: -2.2888693e-17}
+      rotation: {x: 0.009410202, y: -0.037759837, z: -0.31133977, w: 0.9495016}
+      scale: {x: 1.0000011, y: 1, z: 1.0000013}
+    - name: joint22
+      parentName: joint21
+      position: {x: -0.1791461, y: -3.8736376e-18, z: -6.217249e-18}
+      rotation: {x: -0.48279196, y: 0.873211, z: 0.0037205846, w: 0.06633769}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Wing2
+      parentName: joint1
+      position: {x: -0.13915925, y: -0.030373532, z: 0.1267875}
+      rotation: {x: 0.9008674, y: 0.122097746, z: 0.39616013, w: -0.12879162}
+      scale: {x: 1.0000005, y: 1.000002, z: 1.0000015}
+    - name: joint28
+      parentName: Wing2
+      position: {x: 0.07114641, y: -0.000000082880184, z: 0.000000095616485}
+      rotation: {x: -0.0400729, y: -0.3160708, z: -0.0506858, w: 0.9465329}
+      scale: {x: 1.0000011, y: 1.0000014, z: 1.0000005}
+    - name: joint29
+      parentName: joint28
+      position: {x: 0.12263257, y: -0.0000000066858106, z: -0.0000002132034}
+      rotation: {x: 0.009410206, y: -0.03775972, z: -0.3113398, w: 0.94950163}
+      scale: {x: 1.000001, y: 1.000001, z: 1.0000013}
+    - name: joint30
+      parentName: joint29
+      position: {x: 0.17914592, y: 0.000000352906, z: 0.00000012569645}
+      rotation: {x: -0.44976944, y: 0.89068556, z: 0.0066643725, w: 0.06589691}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg1
+      parentName: joint1
+      position: {x: 0.01555307, y: -0.1258423, z: 0.075845465}
+      rotation: {x: -0.42668366, y: -0.90342593, z: 0.03586678, w: 0.021821408}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000007}
+    - name: joint32
+      parentName: Leg1
+      position: {x: -0.13858575, y: -1.8184239e-17, z: 4.857226e-18}
+      rotation: {x: 0.6646298, y: 0.12295775, z: 0.09439987, w: 0.7309154}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: joint33
+      parentName: joint32
+      position: {x: -0.040364254, y: -5.245804e-17, z: -5.5364935e-17}
+      rotation: {x: 0.000000029802315, y: -0.00000007450579, z: 0.027242446, w: 0.99962884}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1}
+    - name: joint34
+      parentName: joint33
+      position: {x: -0.04983082, y: -1.0722401e-16, z: -3.419487e-17}
+      rotation: {x: 0.5275294, y: 0.47307873, z: -0.48005176, w: 0.51716495}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999995}
+    - name: joint37
+      parentName: joint34
+      position: {x: 0.03689823, y: -0.0027338567, z: -8.206769e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint35
+      parentName: joint34
+      position: {x: -0.03927844, y: -6.3535234e-18, z: -3.1724084e-16}
+      rotation: {x: 0.000000029802319, y: -0.000000014901159, z: -0.0031806077, w: 0.99999493}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: joint36
+      parentName: joint35
+      position: {x: -0.042875864, y: 4.911627e-16, z: -2.2382097e-16}
+      rotation: {x: 0, y: -0, z: -0.22940023, w: 0.97333217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg2
+      parentName: joint1
+      position: {x: 0.0155531885, y: -0.12584251, z: -0.0758457}
+      rotation: {x: 0.9034262, y: -0.42668337, z: 0.021821111, w: -0.035866946}
+      scale: {x: 1.0000007, y: 1.0000011, z: 1.0000011}
+    - name: joint38
+      parentName: Leg2
+      position: {x: 0.1385854, y: 0.00000013907591, z: -0.0000004909688}
+      rotation: {x: 0.6646299, y: 0.12295765, z: 0.094399884, w: 0.7309154}
+      scale: {x: 1.0000006, y: 1.000001, z: 1.0000011}
+    - name: joint39
+      parentName: joint38
+      position: {x: 0.04036429, y: 0.00000021095914, z: -1.2434498e-17}
+      rotation: {x: -0.000000029802315, y: -0.000000014901158, z: 0.027242409, w: 0.99962884}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000011}
+    - name: joint40
+      parentName: joint39
+      position: {x: 0.049830787, y: 9.9475986e-17, z: 2.4868997e-17}
+      rotation: {x: 0.52752924, y: 0.47307882, z: -0.48005217, w: 0.51716465}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000002}
+    - name: joint43
+      parentName: joint40
+      position: {x: -0.03689821, y: 0.0027338576, z: 1.4175328e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint41
+      parentName: joint40
+      position: {x: 0.039278194, y: 0.0000000054715903, z: -2.9842797e-16}
+      rotation: {x: 0.000000029802319, y: 0.0000000745058, z: -0.003180578, w: 0.999995}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: joint42
+      parentName: joint41
+      position: {x: 0.042875845, y: 5.832767e-10, z: -4.1033844e-16}
+      rotation: {x: 7.2248426e-24, y: 1.1396325e-15, z: -0.22940023, w: 0.97333217}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
