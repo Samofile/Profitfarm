@@ -26,7 +26,6 @@ public class Login : MonoBehaviour
     void Start()
     {
         info.text = "Добро пожаловать";
-
     }
 
     // Update is called once per frame
@@ -38,14 +37,14 @@ public class Login : MonoBehaviour
     public void EndEdit()
     {
         Debug.Log(2);
-
     }
 
     public void Init(bool start = false)
     {
-        StartCoroutine(LoginUser(start));
         info.text = "Авторизация...";
+        //StartCoroutine(LoginUser(start));
         string pasHash = GetMd5Hash("9196:5dd7d878554fd");
+        Debug.Log("Hash-2: " + pasHash);
         return;
     }
 
@@ -56,7 +55,6 @@ public class Login : MonoBehaviour
         byte[] hashenc = md5.ComputeHash(hash);
         string result = "";
         foreach (var b in hashenc) {result += b.ToString("x2");}
-        Debug.Log("Hash: " + result);
         return result;
     }
 
@@ -168,17 +166,15 @@ public class Login : MonoBehaviour
     }
 */
 
-
-
+/*
     public IEnumerator LoginUser(bool start = false)
     {
         Debug.Log("login: " + start);
         // Получает хэш пин-кода из БД по полю name
         // Сравнивает хэш пин-кода и вычисленный хэш из пароля+secretkey
         // если ок - грузит следующую сцену
-
     }
-
+*/
 
     public void Register() // Регистрация нового пользователя
     {
@@ -187,8 +183,4 @@ public class Login : MonoBehaviour
         return;
     }
 
-
-
-
 }
-
