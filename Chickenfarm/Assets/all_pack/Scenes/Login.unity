@@ -499,13 +499,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   info: {fileID: 793197681}
-  if_name: {fileID: 643503958}
-  pass: {fileID: 1868476534}
-  START_PANEL: {fileID: 0}
-  check_box: {fileID: 0}
-  buts: {fileID: 0}
-  drk: {fileID: 0}
-  name_txt: {fileID: 0}
+  userName: {fileID: 643503958}
+  userPassword: {fileID: 1868476534}
+  check_box: {fileID: 1383016623}
 --- !u!20 &282840813
 Camera:
   m_ObjectHideFlags: 0

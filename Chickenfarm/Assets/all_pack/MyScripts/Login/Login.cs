@@ -11,11 +11,11 @@ using System.Security.Cryptography;
 public class Login : MonoBehaviour
 {
     [SerializeField] Text info;
-    [SerializeField] InputField if_name, pass;
-    [SerializeField] GameObject START_PANEL;
+    [SerializeField] InputField userName, userPassword;
+    //[SerializeField] GameObject START_PANEL;
     [SerializeField] Toggle check_box;
-    [SerializeField] Animator buts, drk;
-    [SerializeField] Text name_txt;
+    //[SerializeField] Animator buts, drk;
+    //[SerializeField] Text name_txt;
 
     string name;
     string password;
@@ -39,13 +39,43 @@ public class Login : MonoBehaviour
         Debug.Log(2);
     }
 
+    private const string URL = "http://ферма.профитфарм.рф";
+
     public void Init(bool start = false)
     {
         info.text = "Авторизация...";
         //StartCoroutine(LoginUser(start));
         string pasHash = GetMd5Hash("9196:5dd7d878554fd");
         Debug.Log("Hash-2: " + pasHash);
+        string psps = DataBaseHash(userName.text);
+        WWW request = new WWW(URL);
+        //Debug.Log("Request: " + request.text);
+        StartCoroutine(OnResponse(userName.text));
         return;
+    }
+/*
+    private IEnumerator OnResponse(WWW reg)
+    {
+        //yield return req;
+        //Debug.Log("Request: " + req.text);
+        WWWForm form = new WWWForm();
+        form.AddField("Name", name);
+        WWW www = new WWW("http://инвестор.профитфарм.рф/login.php", form);
+        Debug.Log("Login-php вернул: " + www.text);
+        yield return www;
+    }
+*/
+    private IEnumerator OnResponse(string playerName)
+    {
+        //yield return req;
+        //Debug.Log("Request: " + req.text);
+        WWWForm form = new WWWForm();
+        form.AddField("PlayerName", playerName);
+        WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/index.php", form);
+        //WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/index.php?PlayerName=79145494242");
+        yield return req;
+        Debug.Log("Login-php вернул: " + req.text);
+        //Debug.Log("Login-php вернул: " + req);
     }
 
     public string GetMd5Hash(string input)
@@ -58,6 +88,13 @@ public class Login : MonoBehaviour
         return result;
     }
 
+    public string DataBaseHash(string input)
+    {
+        Debug.Log("userName: " + input);
+        //Debug.Log("userPassword: " + userPassword.text);
+        string result = "";
+        return result;
+    }
 /*
     public IEnumerator LoginUser(bool start = false)
     {
