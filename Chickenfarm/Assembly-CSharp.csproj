@@ -73,7 +73,6 @@
     <Compile Include="Assets\all_pack\MyScripts\RobotAI.cs" />
     <Compile Include="Assets\all_pack\MyScripts\SmoothFollow.cs" />
     <Compile Include="Assets\all_pack\MyScripts\SYSTEM_APP.cs" />
-    <Compile Include="Assets\all_pack\MyScripts\TEST_GIT.cs" />
     <Compile Include="Assets\all_pack\MyScripts\TruckAI.cs" />
     <Compile Include="Assets\all_pack\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\all_pack\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
@@ -129,7 +128,7 @@
     <Compile Include="Assets\HerdSim\Scripts\Demo\SmoothCameraOrbit.cs" />
     <Compile Include="Assets\RobotSphere\Assets\Scripts\robotAnimScript.cs" />
     <Compile Include="Assets\Scripts\EnableUPDPacks.cs" />
-    <Compile Include="Assets\TEST_SCRIPT.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
     <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\Industrial Props\ReadMe.txt" />
     <None Include="Assets\CharacterPack01\Meshes\MAX-Files\readme.txt" />

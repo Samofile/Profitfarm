@@ -13,30 +13,6 @@ public class Login : MonoBehaviour
     [SerializeField] InputField userName, userPassword;
     [SerializeField] Toggle check_box;
 
-    string name;
-    string password;
-    private bool init;
-    bool is_logined;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        info.text = "Добро пожаловать";
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void EndEdit()
-    {
-        Debug.Log(2);
-    }
-
-    //static string passwordHash;
-
     public void Init(bool start = false)
     {
         info.text = "Авторизация...";
@@ -44,11 +20,10 @@ public class Login : MonoBehaviour
         return;
     }
 
-    //private IEnumerator OnResponse(string playerName)
     public IEnumerator OnResponse(string playerName)
     {
         WWWForm form = new WWWForm();
-        form.AddField("PlayerName", playerName);
+        form.AddField("PlayerPhone", playerName);
         WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/password.php", form);
         yield return req;
         string passwordHash = req.text;
@@ -66,6 +41,7 @@ public class Login : MonoBehaviour
         if (passHash == passwordHash) 
         {
             info.text = "Вход...";
+            SceneManager.LoadScene(1);
         }
         else
         {
@@ -86,8 +62,8 @@ public class Login : MonoBehaviour
 
     public void Register() // Регистрация нового пользователя
     {
-        info.text = "Регистрация пользователя...";
-        Application.OpenURL("http://регистрация.профитфарм.рф/");
+        info.text = "Регистрация игрока...";
+        Application.OpenURL("http://xn--80affnb7bdhj6b9f.xn--80apnfegdoqc.xn--p1ai/");
         return;
     }
 
