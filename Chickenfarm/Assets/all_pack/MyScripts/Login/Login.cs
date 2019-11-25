@@ -10,20 +10,22 @@ using System.Security.Cryptography;
 public class Login : MonoBehaviour
 {
     [SerializeField] Text info;
-    [SerializeField] InputField userName, userPassword;
-    [SerializeField] Toggle check_box;
+    [SerializeField] InputField userPhone, userPassword;
+    [SerializeField] Toggle checkBox;
+    public static string staticPlayerPhone;
 
     public void Init(bool start = false)
     {
         info.text = "Авторизация...";
-        StartCoroutine(OnResponse(userName.text));
+        staticPlayerPhone = userPhone.text;
+        StartCoroutine(OnResponse(userPhone.text));
         return;
     }
 
-    public IEnumerator OnResponse(string playerName)
+    public IEnumerator OnResponse(string playerPhone)
     {
         WWWForm form = new WWWForm();
-        form.AddField("PlayerPhone", playerName);
+        form.AddField("PlayerPhone", playerPhone);
         WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/password.php", form);
         yield return req;
         string passwordHash = req.text;
@@ -67,4 +69,40 @@ public class Login : MonoBehaviour
         return;
     }
 
+}
+
+/*
+class RoomManager : Manager
+{
+    public static RoomManager Inst = new RoomManager();
+
+    //Data
+    public float foo1 = 0;
+    public string foo2 = "123";
+}
+*/
+/*
+public class GameMetaData
+{
+    public GameMetaData GetInstance(){
+        playerName = "1q2w";
+    }
+}
+*/
+
+public static class DataHolder
+{
+    private static GameObject prefabName;
+
+    public static GameObject Prefab
+    {
+        get
+        {
+            return prefabName;
+        }
+        set
+        {
+            prefabName = value;
+        }
+    }
 }

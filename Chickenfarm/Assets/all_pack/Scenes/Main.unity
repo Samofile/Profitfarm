@@ -2891,8 +2891,8 @@ GameObject:
   m_Component:
   - component: {fileID: 282840814}
   - component: {fileID: 282840813}
-  - component: {fileID: 282840811}
   - component: {fileID: 282840812}
+  - component: {fileID: 282840811}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2912,11 +2912,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 648cdcf5542f04a8b8bc30d2d4000735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  water: {fileID: 1652856385}
-  eat: {fileID: 1019622892}
-  clean: {fileID: 1174818428}
-  take: {fileID: 548722068}
-  sall: {fileID: 1371749619}
+  water: {fileID: 0}
+  eat: {fileID: 0}
+  clean: {fileID: 0}
+  take: {fileID: 0}
+  sell: {fileID: 0}
+  playerName: {fileID: 1250205942}
 --- !u!114 &282840812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3399,7 +3400,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.000035855606, y: -514}
+  m_AnchoredPosition: {x: -0.000035855606, y: -462}
   m_SizeDelta: {x: 321.86, y: 58.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &328842743
@@ -6979,7 +6980,7 @@ PrefabInstance:
     - target: {fileID: 2757576155645332581, guid: 846da6d3dba2c564ca2969ae9091c8fc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2757576155645332581, guid: 846da6d3dba2c564ca2969ae9091c8fc,
         type: 3}
@@ -8928,8 +8929,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1704967051}
   - {fileID: 1334804548}
+  - {fileID: 1704967051}
   - {fileID: 328842742}
   - {fileID: 840200921}
   m_Father: {fileID: 0}
@@ -13146,8 +13147,8 @@ GameObject:
   - component: {fileID: 1250205945}
   - component: {fileID: 1250205944}
   m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
+  m_Name: PlayerName
+  m_TagString: PlayaeName
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14001,7 +14002,7 @@ PrefabInstance:
     - target: {fileID: 4615215282572339428, guid: 06b272c69f253284dbd06b53bc903109,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4615215282572339428, guid: 06b272c69f253284dbd06b53bc903109,
         type: 3}
