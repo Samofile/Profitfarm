@@ -60,7 +60,7 @@ public class Login : MonoBehaviour
         return result;
     }
 
-    public void Register() // Регистрация нового пользователя
+    public void Register()
     {
         info.text = "Регистрация игрока...";
         Application.OpenURL("http://xn--80affnb7bdhj6b9f.xn--80apnfegdoqc.xn--p1ai/");
