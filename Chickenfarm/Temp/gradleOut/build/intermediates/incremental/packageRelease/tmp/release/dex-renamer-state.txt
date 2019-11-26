@@ -1,4 +1,0 @@
-#Mon Nov 25 20:32:01 VLAT 2019
-base.0=/Users/Anna/Documents/GitHub/Profitfarm/Chickenfarm/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
-path.0=classes.dex
-renamed.0=classes.dex

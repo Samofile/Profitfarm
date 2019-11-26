@@ -14,6 +14,11 @@ public class Login : MonoBehaviour
     [SerializeField] Toggle checkBox;
     public static string staticPlayerPhone;
 
+    void Start()
+    {
+        info.text = "Введите номер телефона и пин-код";
+    }
+
     public void Init(bool start = false)
     {
         info.text = "Авторизация...";
@@ -69,40 +74,4 @@ public class Login : MonoBehaviour
         return;
     }
 
-}
-
-/*
-class RoomManager : Manager
-{
-    public static RoomManager Inst = new RoomManager();
-
-    //Data
-    public float foo1 = 0;
-    public string foo2 = "123";
-}
-*/
-/*
-public class GameMetaData
-{
-    public GameMetaData GetInstance(){
-        playerName = "1q2w";
-    }
-}
-*/
-
-public static class DataHolder
-{
-    private static GameObject prefabName;
-
-    public static GameObject Prefab
-    {
-        get
-        {
-            return prefabName;
-        }
-        set
-        {
-            prefabName = value;
-        }
-    }
 }

@@ -6,7 +6,8 @@ TagManager:
   tags:
   - chicken
   - HerdChild
-  - PlayaeName
+  - ActionButtons
+  - PlayerName
   layers:
   - Default
   - TransparentFX
