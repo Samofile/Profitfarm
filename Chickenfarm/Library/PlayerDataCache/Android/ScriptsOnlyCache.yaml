@@ -23,8 +23,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -760,7 +762,7 @@ ScriptsOnlyBuild:
     className: NetworkTransformVisualizer
   - hash:
       serializedVersion: 2
-      Hash: 18bee94b505ffd06a08c8b9a5b2e5283
+      Hash: 7e93432f20ac5f7ba798ff9a259ecf36
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Menu
@@ -1273,4 +1275,4 @@ ScriptsOnlyBuild:
   - Assets/all_pack/Scenes/Login.unity
   - Assets/all_pack/Scenes/Main.unity
   - Assets/all_pack/Scenes/FinalScene.unity
-  playerPath: /Users/Anna/Documents/GitHub/Profitfarm/Chickenfarm/Chickenfarm38.apk
+  playerPath: /Users/Anna/Documents/GitHub/Profitfarm/Chickenfarm/Chickenfarm41.apk
