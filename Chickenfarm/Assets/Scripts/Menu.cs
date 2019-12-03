@@ -10,33 +10,52 @@ public class Menu : MonoBehaviour
     [SerializeField] Text playerName;
     [SerializeField] GameObject actionPanel;
     [SerializeField] Text balanceText;
+    [SerializeField] Text chickenCount;
+    public static string staticChickenCount;
 
     void Start()
     {
         a = Login.staticPlayerPhone;
         Debug.Log("Статик playerPhone: " + a);
-        //GameObject.FindGameObjectWithTag("PlayerName").GetComponent<Text>().text = a.ToString();
-        //playerName = GameObject.FindGameObjectWithTag("PlayerName");
-        //playerName.GetComponent<Text>().text = a.ToString();
         playerName.text = a.ToString();
-        //actionButtons = GameObject.Find("ActionButtons");
         actionPanel.active = false;
+
+        StartCoroutine(GetBalance(4f));
+        StartCoroutine(GetChickenCount(5f));
+    }
+
+    void Update()
+    {
+
+        
     }
 
     private IEnumerator GetBalance(float value)
     {
+        while (true)
+        {
+        yield return new WaitForSeconds(2f);
         WWWForm form = new WWWForm();
         form.AddField("playerPhone", Login.staticPlayerPhone);
         WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/balance.php", form);
         yield return new WaitForSeconds(value);
         Debug.Log("Balance: " + req.text);
         balanceText.text = req.text;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private IEnumerator GetChickenCount(float value)
     {
-        StartCoroutine(GetBalance(5f));
+        while (true)
+        {
+        yield return new WaitForSeconds(2f);
+        WWWForm form = new WWWForm();
+        form.AddField("playerPhone", Login.staticPlayerPhone);
+        WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/chickenscount.php", form);
+        yield return new WaitForSeconds(value);
+        Debug.Log("Chicken Count: " + req.text);
+        chickenCount.text = req.text;
+        }
     }
 
     public void ExitPressed()
@@ -47,5 +66,11 @@ public class Menu : MonoBehaviour
     public void Withdrow()
     {
         Application.OpenURL("http://xn--b1aghuhmfi.xn--80apnfegdoqc.xn--p1ai/");
+    }
+
+    public void SellScene()
+    {
+        //SceneManager.LoadScene(2);
+        Application.LoadLevel(2);
     }
 }
