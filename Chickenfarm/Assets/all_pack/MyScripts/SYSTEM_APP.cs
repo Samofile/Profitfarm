@@ -758,7 +758,7 @@ public class SYSTEM_APP : MonoBehaviour
         for(int i = 0; i < Chikens.Length; i++)
         {
             //Chikens[i].GetComponent<chick>().anim.enabled = false;
-            Chikens[i].SetActive(false);
+            Chikens[i].SetActive(true);
         }
         for (int i = 0; i < 5; i++)
         {

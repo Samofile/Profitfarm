@@ -16,12 +16,12 @@ public class Menu : MonoBehaviour
     void Start()
     {
         a = Login.staticPlayerPhone;
-        Debug.Log("Статик playerPhone: " + a);
+        //Debug.Log("Статик playerPhone: " + a);
         playerName.text = a.ToString();
         actionPanel.active = false;
 
-        StartCoroutine(GetBalance(4f));
-        StartCoroutine(GetChickenCount(5f));
+        StartCoroutine(GetBalance(2f));
+        StartCoroutine(GetChickenCount(2f));
     }
 
     void Update()
@@ -39,7 +39,7 @@ public class Menu : MonoBehaviour
         form.AddField("playerPhone", Login.staticPlayerPhone);
         WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/balance.php", form);
         yield return new WaitForSeconds(value);
-        Debug.Log("Balance: " + req.text);
+        //Debug.Log("Balance: " + req.text);
         balanceText.text = req.text;
         }
     }
@@ -53,8 +53,10 @@ public class Menu : MonoBehaviour
         form.AddField("playerPhone", Login.staticPlayerPhone);
         WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/chickenscount.php", form);
         yield return new WaitForSeconds(value);
-        Debug.Log("Chicken Count: " + req.text);
+        //Debug.Log("Chicken Count: " + req.text);
         chickenCount.text = req.text;
+        staticChickenCount = req.text;
+        Debug.Log("staticChickenCount-1: " + staticChickenCount);
         }
     }
 
