@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AppRun
     - CharacterAI
+    - ChickenAI
     - EnableUPDPacks
     - LightMerc
     - Login
@@ -107,29 +108,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10532}
     - Class: 114
-      Script: {instanceID: 10606}
+      Script: {instanceID: 10608}
     - Class: 114
-      Script: {instanceID: 10776}
+      Script: {instanceID: 10778}
     - Class: 114
-      Script: {instanceID: 11048}
+      Script: {instanceID: 11050}
     - Class: 114
-      Script: {instanceID: 11146}
+      Script: {instanceID: 11148}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11626}
+      Script: {instanceID: 11628}
     - Class: 114
-      Script: {instanceID: 11666}
+      Script: {instanceID: 11668}
     - Class: 114
-      Script: {instanceID: 11722}
+      Script: {instanceID: 11724}
     - Class: 114
-      Script: {instanceID: 11890}
+      Script: {instanceID: 11892}
     - Class: 114
-      Script: {instanceID: 12096}
+      Script: {instanceID: 12098}
     - Class: 114
-      Script: {instanceID: 12112}
+      Script: {instanceID: 12114}
     - Class: 114
-      Script: {instanceID: 12152}
+      Script: {instanceID: 12154}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -218,21 +219,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10532}
     - Class: 114
-      Script: {instanceID: 10982}
+      Script: {instanceID: 10984}
     - Class: 114
-      Script: {instanceID: 11048}
+      Script: {instanceID: 11050}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11388}
+      Script: {instanceID: 11390}
     - Class: 114
-      Script: {instanceID: 11432}
+      Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 11626}
+      Script: {instanceID: 11628}
     - Class: 114
-      Script: {instanceID: 12096}
+      Script: {instanceID: 12098}
     - Class: 114
-      Script: {instanceID: 12112}
+      Script: {instanceID: 12114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -321,31 +322,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10532}
     - Class: 114
-      Script: {instanceID: 10606}
+      Script: {instanceID: 10568}
     - Class: 114
-      Script: {instanceID: 10698}
+      Script: {instanceID: 10608}
     - Class: 114
-      Script: {instanceID: 10820}
+      Script: {instanceID: 10700}
     - Class: 114
-      Script: {instanceID: 11048}
+      Script: {instanceID: 10822}
     - Class: 114
-      Script: {instanceID: 11146}
+      Script: {instanceID: 11050}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11148}
     - Class: 114
-      Script: {instanceID: 11394}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11626}
+      Script: {instanceID: 11396}
     - Class: 114
-      Script: {instanceID: 11666}
+      Script: {instanceID: 11628}
     - Class: 114
-      Script: {instanceID: 11722}
+      Script: {instanceID: 11668}
     - Class: 114
-      Script: {instanceID: 11890}
+      Script: {instanceID: 11724}
     - Class: 114
-      Script: {instanceID: 12096}
+      Script: {instanceID: 11892}
     - Class: 114
-      Script: {instanceID: 12152}
+      Script: {instanceID: 12098}
+    - Class: 114
+      Script: {instanceID: 12154}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -715,6 +718,12 @@ ScriptsOnlyBuild:
     className: DragRigidbody
   - hash:
       serializedVersion: 2
+      Hash: ebe97a3e2ef1d46bfc0dedec0ec50493
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChickenAI
+  - hash:
+      serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -763,7 +772,7 @@ ScriptsOnlyBuild:
     className: NetworkTransformVisualizer
   - hash:
       serializedVersion: 2
-      Hash: bd8be00d7d1c539895d7790a5d905690
+      Hash: b45e90c03f3ab7d23edd0dcdd0a40b1c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Menu
@@ -1009,7 +1018,7 @@ ScriptsOnlyBuild:
     className: AlphaButtonClickMask
   - hash:
       serializedVersion: 2
-      Hash: 27c902e3de88fcc68a94b55407c4ee92
+      Hash: 6391ce826104924b60bcd09d93a08054
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AppRun
@@ -1249,7 +1258,7 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
-      Hash: 2e023f4262ad3541e4567d8b728c43ff
+      Hash: 0236db61812c4662a03e79a81357e861
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RobotAI
@@ -1282,4 +1291,4 @@ ScriptsOnlyBuild:
   - Assets/all_pack/Scenes/Login.unity
   - Assets/all_pack/Scenes/Main.unity
   - Assets/all_pack/Scenes/FinalScene.unity
-  playerPath: /Users/Anna/Documents/GitHub/Profitfarm/Chickenfarm/Chickenfarm44.apk
+  playerPath: /Users/Anna/Documents/GitHub/Profitfarm/Chickenfarm/Chickenfarm49.apk

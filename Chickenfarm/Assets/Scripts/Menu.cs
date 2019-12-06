@@ -11,23 +11,24 @@ public class Menu : MonoBehaviour
     [SerializeField] GameObject actionPanel;
     [SerializeField] Text balanceText;
     [SerializeField] Text chickenCount;
+    [SerializeField] Text eggCount;
     public static string staticChickenCount;
+    public static string staticEggCount;
 
     void Start()
     {
         a = Login.staticPlayerPhone;
-        //Debug.Log("Статик playerPhone: " + a);
         playerName.text = a.ToString();
         actionPanel.active = false;
 
         StartCoroutine(GetBalance(2f));
         StartCoroutine(GetChickenCount(2f));
+        StartCoroutine(GetEggCount(1f));
     }
 
     void Update()
     {
-
-        
+ 
     }
 
     private IEnumerator GetBalance(float value)
@@ -57,6 +58,22 @@ public class Menu : MonoBehaviour
         chickenCount.text = req.text;
         staticChickenCount = req.text;
         Debug.Log("staticChickenCount-1: " + staticChickenCount);
+        }
+    }
+
+    private IEnumerator GetEggCount(float value)
+    {
+        while (true)
+        {
+        yield return new WaitForSeconds(2f);
+        WWWForm form = new WWWForm();
+        form.AddField("playerPhone", Login.staticPlayerPhone);
+        WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/eggscount.php", form);
+        yield return new WaitForSeconds(value);
+        //Debug.Log("Chicken Count: " + req.text);
+        eggCount.text = req.text;
+        staticEggCount = req.text;
+        Debug.Log("staticEggCount: " + staticEggCount);
         }
     }
 

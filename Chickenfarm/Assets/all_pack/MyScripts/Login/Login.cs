@@ -17,6 +17,7 @@ public class Login : MonoBehaviour
     void Start()
     {
         info.text = "Введите номер телефона и пин-код";
+        userPhone.ActivateInputField();
     }
 
     public void Init(bool start = false)
@@ -53,12 +54,13 @@ public class Login : MonoBehaviour
         else
         {
             info.text = "Неверный логин или пароль";
+            userPhone.ActivateInputField();
         }
     }
 
     public string GetMd5Hash(string input)
     {
-        Debug.Log("Pin: " + input);
+        //Debug.Log("Pin: " + input);
         byte[] hash = Encoding.ASCII.GetBytes(input);
         MD5 md5 = new MD5CryptoServiceProvider();
         byte[] hashenc = md5.ComputeHash(hash);
@@ -72,6 +74,19 @@ public class Login : MonoBehaviour
         info.text = "Регистрация игрока...";
         Application.OpenURL("http://xn--80affnb7bdhj6b9f.xn--80apnfegdoqc.xn--p1ai/");
         return;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Tab)) 
+        {
+            userPassword.ActivateInputField();
+        }
+        if (Input.GetKeyDown(KeyCode.Return)) 
+        {
+            Init();
+        }
+ 
     }
 
 }

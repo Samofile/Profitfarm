@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{9F67F3AE-7AB4-B772-0FEF-A98E483C931A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/all_pack/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
+    <Files>
+      <File FileName="Assets/all_pack/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" Line="237" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ChickenFarm" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e40dc0ee-4727-4858-8feb-b9d579dac1de" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
