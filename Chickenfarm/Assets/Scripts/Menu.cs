@@ -57,7 +57,7 @@ public class Menu : MonoBehaviour
         //Debug.Log("Chicken Count: " + req.text);
         chickenCount.text = req.text;
         staticChickenCount = req.text;
-        Debug.Log("staticChickenCount-1: " + staticChickenCount);
+        //Debug.Log("staticChickenCount-1: " + staticChickenCount);
         }
     }
 
@@ -73,7 +73,7 @@ public class Menu : MonoBehaviour
         //Debug.Log("Chicken Count: " + req.text);
         eggCount.text = req.text;
         staticEggCount = req.text;
-        Debug.Log("staticEggCount: " + staticEggCount);
+        //Debug.Log("staticEggCount: " + staticEggCount);
         }
     }
 
@@ -89,7 +89,9 @@ public class Menu : MonoBehaviour
 
     public void SellScene()
     {
-        //SceneManager.LoadScene(2);
+        WWWForm form = new WWWForm();
+        form.AddField("playerPhone", Login.staticPlayerPhone);
+        WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/eggssell.php", form);
         Application.LoadLevel(2);
     }
 }
