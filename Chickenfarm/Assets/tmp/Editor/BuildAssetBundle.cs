@@ -6,7 +6,7 @@ using UnityEngine;
 public class BuildAssetBundle
 {
 
-    [MenuItem("Chicken Farm Manager/[Глобальное обновление]")]
+    /*[MenuItem("Chicken Farm Manager/[Глобальное обновление]")]
     static void GloabalUpdate()
     {
         WWWForm form = new WWWForm();
@@ -54,5 +54,5 @@ public class BuildAssetBundle
     static void BulidBundles()
     {
         BuildPipeline.BuildAssetBundles("Assets/AssetBundles", BuildAssetBundleOptions.None, BuildTarget.Android);
-    }
+    }*/
 }

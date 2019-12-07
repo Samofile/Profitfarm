@@ -32,16 +32,16 @@ public class AppRun : MonoBehaviour
     {
         for (int i = 0; i < n; i++)
         {
-            //Vector3 pos = myChicken.transform.position;
-            //Instantiate(myChicken, new Vector3(pos.x, pos.y, pos.z), transform.rotation);
             Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2), Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
             GameObject newChicken = Instantiate(myChicken, pos, Quaternion.identity);
             newChicken.transform.localScale = new Vector3(1f, 1f, 1f);
             newChicken.SetActive(true);
-            //Debug.Log("My Chicken " + i + " x: " + pos.x + " y: " + pos.y + " z: " + pos.z);
             chickenCount.text = i.ToString();
-            //chickenCount.setText(Html.fromHtml(" &#x20bd"));
             yield return new WaitForSeconds(0);
+            //Vector3 pos = myChicken.transform.position;
+            //Instantiate(myChicken, new Vector3(pos.x, pos.y, pos.z), transform.rotation);
+            //Debug.Log("My Chicken " + i + " x: " + pos.x + " y: " + pos.y + " z: " + pos.z);
+            //chickenCount.setText(Html.fromHtml(" &#x20bd"));
         }
     }
 
@@ -49,16 +49,15 @@ public class AppRun : MonoBehaviour
     {
         for (int i = 0; i < k; i++)
         {
-            //Vector3 pos = myChicken.transform.position;
-            //Instantiate(myChicken, new Vector3(pos.x, pos.y, pos.z), transform.rotation);
-
             Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2), Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
             GameObject newEgg = Instantiate(myEgg, pos, Quaternion.identity);
-            //newEgg.transform.localScale = new Vector3(1f, 1f, 1f);
             newEgg.SetActive(true);
-            //Debug.Log("My Chicken " + i + " x: " + pos.x + " y: " + pos.y + " z: " + pos.z);
             eggCount.text = i.ToString();
             yield return new WaitForSeconds(0);
+            //Vector3 pos = myChicken.transform.position;
+            //Instantiate(myChicken, new Vector3(pos.x, pos.y, pos.z), transform.rotation);
+            //newEgg.transform.localScale = new Vector3(1f, 1f, 1f);
+            //Debug.Log("My Chicken " + i + " x: " + pos.x + " y: " + pos.y + " z: " + pos.z);
         }
     }
 
@@ -70,6 +69,7 @@ public class AppRun : MonoBehaviour
             StartCoroutine(MakeChickens(n));
             StartCoroutine(MakeEggs(k));
             setChickens = false;
+            setEggs = false;
         }
         //Debug.Log("setChickens-1: " + setChickens);
     }
@@ -80,5 +80,4 @@ public class AppRun : MonoBehaviour
         //GUIDrawRect (Color.blue);
         //Debug.Log("Тут-2");
     }
-
 }

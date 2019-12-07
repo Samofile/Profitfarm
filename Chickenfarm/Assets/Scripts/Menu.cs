@@ -41,8 +41,8 @@ public class Menu : MonoBehaviour
         form.AddField("playerPhone", Login.staticPlayerPhone);
         WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/balance.php", form);
         yield return new WaitForSeconds(value);
-        //Debug.Log("Balance: " + req.text);
         balanceText.text = req.text;
+        //Debug.Log("Balance: " + req.text);
         }
     }
 
@@ -55,10 +55,10 @@ public class Menu : MonoBehaviour
         form.AddField("playerPhone", Login.staticPlayerPhone);
         WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/chickenscount.php", form);
         yield return new WaitForSeconds(value);
-        //Debug.Log("Chicken Count: " + req.text);
         chickenCount.text = req.text;
         staticChickenCount = req.text;
         //Debug.Log("staticChickenCount-1: " + staticChickenCount);
+        //Debug.Log("Chicken Count: " + req.text);
         }
     }
 
@@ -71,10 +71,10 @@ public class Menu : MonoBehaviour
         form.AddField("playerPhone", Login.staticPlayerPhone);
         WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/eggscount.php", form);
         yield return new WaitForSeconds(value);
-        //Debug.Log("Chicken Count: " + req.text);
         eggCount.text = req.text;
         staticEggCount = req.text;
         //Debug.Log("staticEggCount: " + staticEggCount);
+        //Debug.Log("Chicken Count: " + req.text);
         }
     }
 
@@ -101,9 +101,9 @@ public class Menu : MonoBehaviour
         clearObj = GameObject.FindGameObjectsWithTag("Stuff");
         for(int i = 0; i < clearObj.Length; i++)
         {
+            Destroy(clearObj[i],0); // Удаление объекта с задержкой
             //Chikens[i].GetComponent<chick>().anim.enabled = false;
             //Chikens[i].SetActive(true);
-            Destroy(clearObj[i],0); // Удаление объекта с задержкой
         }
     }
 }

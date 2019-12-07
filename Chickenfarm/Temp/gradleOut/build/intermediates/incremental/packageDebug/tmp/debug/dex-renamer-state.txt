@@ -1,4 +1,4 @@
-#Sat Dec 07 19:34:03 VLAT 2019
+#Sat Dec 07 23:31:26 VLAT 2019
 base.0=/Users/Anna/Documents/GitHub/Profitfarm/Chickenfarm/Temp/gradleOut/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

@@ -4,40 +4,36 @@ using UnityEngine;
 
 public class ChickenAI : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Transform Target;
+    public float Speed;
+    public float RelaxDistance;
+    [SerializeField] UnityEngine.AI.NavMeshAgent navi; // Система навигации
+    public Animator animator; // Система анимаций
+    public Transform newChicken; // Объект сам на себя
+    public GameObject newClear;
+
     void Start()
     {
+        animator.Play("walk");
+        StartCoroutine(MakeClear(30f));
         //animator.enabled = true;
         //animator.SetBool("idle", true);
         //animator.SetBool("dead", false);
         //animator.SetBool("run", false);
         //animator.SetBool("sleep", false);
         //animator.SetBool("walk", false);
-        animator.Play("walk");
-        //animator.Pl
-        StartCoroutine(MakeClear(6f));
     }
 
-    public Transform Target;
-    public float Speed;
-    [Tooltip("Как близко приближаться к Target")]
-    public float RelaxDistance;
-    [SerializeField] UnityEngine.AI.NavMeshAgent navi; // Система навигации
-    public Animator animator; // Система анимаций
-
-
-    // Update is called once per frame
     void Update()
     {
-        // Move chickens to object
-        transform.LookAt(Target);
+        transform.LookAt(Target); // Move chickens to object
         var dir = Target.position - transform.position;
         if (dir.sqrMagnitude > RelaxDistance * RelaxDistance)
         {
             float step = Speed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, Target.position, step);
-            //transform.position = Vector3.Distance(Target.position, transform.position);
             transform.LookAt(Target);
+            //transform.position = Vector3.Distance(Target.position, transform.position);
             //animator.SetBool("Roll_Anim", false);
             //animator.SetBool("Walk_Anim", true);
             //animator.SetBool("Open_Anim", false);
@@ -53,10 +49,6 @@ public class ChickenAI : MonoBehaviour
             //animator.SetBool("walk", false);
         }
     }
-
-
-    public Transform newChicken; // Объект сам на себя
-    public GameObject newClear;
 
     private IEnumerator MakeClear(float value)
     {

@@ -10,26 +10,22 @@ public class RobotAI : MonoBehaviour {
     [SerializeField] NavMeshAgent nav; // Система навигации
     //[SerializeField] Text stuffText;
     [SerializeField] int stuffTotal = 250;
-
     [HideInInspector] public int do_index; // Индекс в массиве, какую точку будем достигать
     [HideInInspector] public bool goRobot; // Движение true/false
     public Transform[] points; // Координаты точек
-
     bool collisionOff = false; // Вкл-выкл коллизий
     Rigidbody rigidBody;
     AudioSource audioSource;
-
     //enum State {Playing,Dead,NextLevel} // В каком состоянии робот
     enum State {Cleaning,Idle,Wait,Walk}
     State state = State.Walk;
 
-
     void Start()
     {
-        //state = State.Playing;
         state = State.Walk;
         rigidBody = GetComponent<Rigidbody>(); // Get self rigitbody
         audioSource = GetComponent<AudioSource>();
+        //state = State.Playing;
         //energyText.text = energyTotal.ToString();
     }
 
@@ -41,8 +37,6 @@ public class RobotAI : MonoBehaviour {
         print("Робот возвращается");
         goRobot = true;
     }
-
-
 
     public IEnumerator wait(GameObject obj)
     {

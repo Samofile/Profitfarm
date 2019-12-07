@@ -35,16 +35,16 @@ public class Login : MonoBehaviour
         WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/password.php", form);
         yield return req;
         string passwordHash = req.text;
-        Debug.Log("Password hash: " + passwordHash);
+        //Debug.Log("Password hash: " + passwordHash);
 
         WWW req2 = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/secretkey.php", form);
         yield return req2;
         string secretKeyHash = req2.text;
-        Debug.Log("Secretkey hash: " + secretKeyHash);
+        //Debug.Log("Secretkey hash: " + secretKeyHash);
 
         string a = userPassword.text + ":" + secretKeyHash;
         string passHash = GetMd5Hash(a);
-        Debug.Log("Hash-3: " + passHash);
+        //Debug.Log("Hash-3: " + passHash);
 
         if (passHash == passwordHash) 
         {
