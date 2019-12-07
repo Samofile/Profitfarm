@@ -12,6 +12,7 @@ public class Menu : MonoBehaviour
     [SerializeField] Text balanceText;
     [SerializeField] Text chickenCount;
     [SerializeField] Text eggCount;
+    public GameObject[] clearObj;
     public static string staticChickenCount;
     public static string staticEggCount;
 
@@ -93,5 +94,16 @@ public class Menu : MonoBehaviour
         form.AddField("playerPhone", Login.staticPlayerPhone);
         WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/eggssell.php", form);
         Application.LoadLevel(2);
+    }
+
+    public void ClearAll()
+    {
+        clearObj = GameObject.FindGameObjectsWithTag("Stuff");
+        for(int i = 0; i < clearObj.Length; i++)
+        {
+            //Chikens[i].GetComponent<chick>().anim.enabled = false;
+            //Chikens[i].SetActive(true);
+            Destroy(clearObj[i],0); // Удаление объекта с задержкой
+        }
     }
 }

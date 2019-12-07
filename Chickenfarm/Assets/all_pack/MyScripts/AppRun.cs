@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class AppRun : MonoBehaviour
 {
+    [SerializeField] Text chickenCount;
+    [SerializeField] Text eggCount;
     public GameObject myChicken;
     public GameObject myEgg;
     public int n = 0;
@@ -36,7 +38,9 @@ public class AppRun : MonoBehaviour
             GameObject newChicken = Instantiate(myChicken, pos, Quaternion.identity);
             newChicken.transform.localScale = new Vector3(1f, 1f, 1f);
             newChicken.SetActive(true);
-            Debug.Log("My Chicken " + i + " x: " + pos.x + " y: " + pos.y + " z: " + pos.z);
+            //Debug.Log("My Chicken " + i + " x: " + pos.x + " y: " + pos.y + " z: " + pos.z);
+            chickenCount.text = i.ToString();
+            //chickenCount.setText(Html.fromHtml(" &#x20bd"));
             yield return new WaitForSeconds(0);
         }
     }
@@ -53,6 +57,7 @@ public class AppRun : MonoBehaviour
             //newEgg.transform.localScale = new Vector3(1f, 1f, 1f);
             newEgg.SetActive(true);
             //Debug.Log("My Chicken " + i + " x: " + pos.x + " y: " + pos.y + " z: " + pos.z);
+            eggCount.text = i.ToString();
             yield return new WaitForSeconds(0);
         }
     }

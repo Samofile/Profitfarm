@@ -718,7 +718,7 @@ ScriptsOnlyBuild:
     className: DragRigidbody
   - hash:
       serializedVersion: 2
-      Hash: ebe97a3e2ef1d46bfc0dedec0ec50493
+      Hash: e8ad0ce52302d9fba89dce28d71a79a4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChickenAI
@@ -772,7 +772,7 @@ ScriptsOnlyBuild:
     className: NetworkTransformVisualizer
   - hash:
       serializedVersion: 2
-      Hash: b45e90c03f3ab7d23edd0dcdd0a40b1c
+      Hash: 3f4d90281e24d844d886d76f89a0bc35
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Menu
@@ -1018,7 +1018,7 @@ ScriptsOnlyBuild:
     className: AlphaButtonClickMask
   - hash:
       serializedVersion: 2
-      Hash: 6391ce826104924b60bcd09d93a08054
+      Hash: 45bfcd14f41c74671e552f0123c29812
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AppRun
@@ -1258,7 +1258,7 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
-      Hash: 0236db61812c4662a03e79a81357e861
+      Hash: 93af68ed7f1206af378c77e99ece4ff5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RobotAI
@@ -1291,4 +1291,4 @@ ScriptsOnlyBuild:
   - Assets/all_pack/Scenes/Login.unity
   - Assets/all_pack/Scenes/Main.unity
   - Assets/all_pack/Scenes/FinalScene.unity
-  playerPath: /Users/Anna/Documents/GitHub/Profitfarm/Chickenfarm/Chickenfarm50.apk
+  playerPath: /Users/Anna/Documents/GitHub/Profitfarm/Chickenfarm/Chickenfarm53.apk
