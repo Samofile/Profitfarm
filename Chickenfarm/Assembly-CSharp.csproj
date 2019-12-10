@@ -66,6 +66,7 @@
     <Compile Include="Assets\all_pack\MyScripts\CharacterAI.cs" />
     <Compile Include="Assets\all_pack\MyScripts\Chickens\chick.cs" />
     <Compile Include="Assets\all_pack\MyScripts\Chickens\ChickenAI.cs" />
+    <Compile Include="Assets\all_pack\MyScripts\EggsAI.cs" />
     <Compile Include="Assets\all_pack\MyScripts\FinalScene.cs" />
     <Compile Include="Assets\all_pack\MyScripts\LightMerc.cs" />
     <Compile Include="Assets\all_pack\MyScripts\Login\Login.cs" />

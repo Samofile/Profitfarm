@@ -12,9 +12,13 @@ public class Menu : MonoBehaviour
     [SerializeField] Text balanceText;
     [SerializeField] Text chickenCount;
     [SerializeField] Text eggCount;
+
+
     public GameObject[] clearObj;
+    public GameObject[] eggsObj;
     public static string staticChickenCount;
     public static string staticEggCount;
+    public static bool doDrink = false;
 
     void Start()
     {
@@ -99,11 +103,46 @@ public class Menu : MonoBehaviour
     public void ClearAll()
     {
         clearObj = GameObject.FindGameObjectsWithTag("Stuff");
+        Debug.Log("Stuff weight: " + clearObj.Length);
         for(int i = 0; i < clearObj.Length; i++)
         {
             Destroy(clearObj[i],0); // Удаление объекта с задержкой
             //Chikens[i].GetComponent<chick>().anim.enabled = false;
             //Chikens[i].SetActive(true);
         }
+    }
+
+    public void TakeEggs()
+    {
+        eggsObj = GameObject.FindGameObjectsWithTag("Egg");
+        WWWForm form = new WWWForm();
+        form.AddField("playerPhone", Login.staticPlayerPhone);
+        WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/eggstake.php", form);
+        Debug.Log("Egg count: " + eggsObj.Length);
+        /*for(int i = 0; i < eggsObj.Length; i++)
+        {
+            Destroy(eggsObj[i],0); // Удаление объекта с задержкой
+            //Chikens[i].GetComponent<chick>().anim.enabled = false;
+            //Chikens[i].SetActive(true);
+        }*/
+        staticEggCount = "0";
+    }
+
+    public void DoDrink()
+    {
+        //eggsObj = GameObject.FindGameObjectsWithTag("Egg");
+        //WWWForm form = new WWWForm();
+        //form.AddField("playerPhone", Login.staticPlayerPhone);
+        //WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/eggstake.php", form);
+        //Debug.Log("Egg count: " + eggsObj.Length);
+        /*for(int i = 0; i < eggsObj.Length; i++)
+        {
+            Destroy(eggsObj[i],0); // Удаление объекта с задержкой
+            //Chikens[i].GetComponent<chick>().anim.enabled = false;
+            //Chikens[i].SetActive(true);
+        }*/
+        //staticEggCount = "0";
+        doDrink = !doDrink;
+        Debug.Log("Drink action");
     }
 }

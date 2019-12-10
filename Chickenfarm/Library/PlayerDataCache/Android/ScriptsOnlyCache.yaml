@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AppRun
     - CharacterAI
     - ChickenAI
+    - EggsAI
     - EnableUPDPacks
     - LightMerc
     - Login
@@ -25,10 +26,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -98,41 +97,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9780}
     - Class: 114
-      Script: {instanceID: 9868}
+      Script: {instanceID: 9870}
     - Class: 114
-      Script: {instanceID: 9964}
+      Script: {instanceID: 9966}
     - Class: 114
-      Script: {instanceID: 10016}
+      Script: {instanceID: 10018}
     - Class: 114
-      Script: {instanceID: 10174}
+      Script: {instanceID: 10176}
     - Class: 114
-      Script: {instanceID: 10438}
+      Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10532}
+      Script: {instanceID: 10534}
     - Class: 114
-      Script: {instanceID: 10608}
+      Script: {instanceID: 10610}
     - Class: 114
-      Script: {instanceID: 10778}
+      Script: {instanceID: 10780}
     - Class: 114
-      Script: {instanceID: 11050}
+      Script: {instanceID: 11052}
     - Class: 114
-      Script: {instanceID: 11148}
+      Script: {instanceID: 11150}
     - Class: 114
-      Script: {instanceID: 11270}
+      Script: {instanceID: 11272}
     - Class: 114
-      Script: {instanceID: 11628}
+      Script: {instanceID: 11630}
     - Class: 114
-      Script: {instanceID: 11668}
+      Script: {instanceID: 11670}
     - Class: 114
-      Script: {instanceID: 11724}
+      Script: {instanceID: 11726}
     - Class: 114
-      Script: {instanceID: 11892}
+      Script: {instanceID: 11894}
     - Class: 114
-      Script: {instanceID: 12098}
+      Script: {instanceID: 12100}
     - Class: 114
-      Script: {instanceID: 12114}
+      Script: {instanceID: 12116}
     - Class: 114
-      Script: {instanceID: 12154}
+      Script: {instanceID: 12156}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -203,39 +202,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9804}
     - Class: 114
-      Script: {instanceID: 9902}
-    - Class: 114
       Script: {instanceID: 9904}
     - Class: 114
-      Script: {instanceID: 9964}
+      Script: {instanceID: 9906}
     - Class: 114
-      Script: {instanceID: 9976}
+      Script: {instanceID: 9966}
     - Class: 114
-      Script: {instanceID: 10006}
+      Script: {instanceID: 9978}
     - Class: 114
-      Script: {instanceID: 10016}
+      Script: {instanceID: 10008}
     - Class: 114
-      Script: {instanceID: 10240}
+      Script: {instanceID: 10018}
     - Class: 114
-      Script: {instanceID: 10438}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10532}
+      Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10984}
+      Script: {instanceID: 10534}
     - Class: 114
-      Script: {instanceID: 11050}
+      Script: {instanceID: 10986}
     - Class: 114
-      Script: {instanceID: 11270}
+      Script: {instanceID: 11052}
     - Class: 114
-      Script: {instanceID: 11390}
+      Script: {instanceID: 11272}
     - Class: 114
-      Script: {instanceID: 11434}
+      Script: {instanceID: 11392}
     - Class: 114
-      Script: {instanceID: 11628}
+      Script: {instanceID: 11436}
     - Class: 114
-      Script: {instanceID: 12098}
+      Script: {instanceID: 11630}
     - Class: 114
-      Script: {instanceID: 12114}
+      Script: {instanceID: 12100}
+    - Class: 114
+      Script: {instanceID: 12116}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -312,45 +311,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9780}
     - Class: 114
-      Script: {instanceID: 9868}
+      Script: {instanceID: 9822}
     - Class: 114
-      Script: {instanceID: 9964}
+      Script: {instanceID: 9870}
     - Class: 114
-      Script: {instanceID: 10016}
+      Script: {instanceID: 9966}
     - Class: 114
-      Script: {instanceID: 10174}
+      Script: {instanceID: 10018}
     - Class: 114
-      Script: {instanceID: 10438}
+      Script: {instanceID: 10176}
     - Class: 114
-      Script: {instanceID: 10532}
+      Script: {instanceID: 10440}
     - Class: 114
-      Script: {instanceID: 10568}
+      Script: {instanceID: 10534}
     - Class: 114
-      Script: {instanceID: 10608}
+      Script: {instanceID: 10570}
     - Class: 114
-      Script: {instanceID: 10700}
+      Script: {instanceID: 10610}
     - Class: 114
-      Script: {instanceID: 10822}
+      Script: {instanceID: 10702}
     - Class: 114
-      Script: {instanceID: 11050}
+      Script: {instanceID: 10824}
     - Class: 114
-      Script: {instanceID: 11148}
+      Script: {instanceID: 11052}
     - Class: 114
-      Script: {instanceID: 11270}
+      Script: {instanceID: 11150}
     - Class: 114
-      Script: {instanceID: 11396}
+      Script: {instanceID: 11272}
     - Class: 114
-      Script: {instanceID: 11628}
+      Script: {instanceID: 11398}
     - Class: 114
-      Script: {instanceID: 11668}
+      Script: {instanceID: 11630}
     - Class: 114
-      Script: {instanceID: 11724}
+      Script: {instanceID: 11670}
     - Class: 114
-      Script: {instanceID: 11892}
+      Script: {instanceID: 11726}
     - Class: 114
-      Script: {instanceID: 12098}
+      Script: {instanceID: 12100}
     - Class: 114
-      Script: {instanceID: 12154}
+      Script: {instanceID: 12156}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -416,6 +415,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 0db08d503d9d2932b7705f84c74691f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EggsAI
   - hash:
       serializedVersion: 2
       Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
@@ -718,7 +723,7 @@ ScriptsOnlyBuild:
     className: DragRigidbody
   - hash:
       serializedVersion: 2
-      Hash: e8ad0ce52302d9fba89dce28d71a79a4
+      Hash: b619a691aeb1feba81936482ac0ee997
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChickenAI
@@ -772,7 +777,7 @@ ScriptsOnlyBuild:
     className: NetworkTransformVisualizer
   - hash:
       serializedVersion: 2
-      Hash: 3f4d90281e24d844d886d76f89a0bc35
+      Hash: c7eed01a34fe29001f5041a52568e616
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Menu
@@ -1018,7 +1023,7 @@ ScriptsOnlyBuild:
     className: AlphaButtonClickMask
   - hash:
       serializedVersion: 2
-      Hash: 45bfcd14f41c74671e552f0123c29812
+      Hash: d6f5c07e5504c0a53a1436bae15d0704
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AppRun
@@ -1291,4 +1296,4 @@ ScriptsOnlyBuild:
   - Assets/all_pack/Scenes/Login.unity
   - Assets/all_pack/Scenes/Main.unity
   - Assets/all_pack/Scenes/FinalScene.unity
-  playerPath: /Users/Anna/Documents/GitHub/Profitfarm/Chickenfarm/Chickenfarm55.apk
+  playerPath: /Users/Anna/Documents/GitHub/Profitfarm/Chickenfarm/Chickenfarm57.apk

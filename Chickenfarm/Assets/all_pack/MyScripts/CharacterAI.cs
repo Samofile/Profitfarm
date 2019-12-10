@@ -12,7 +12,7 @@ public class CharacterAI : MonoBehaviour {
     [HideInInspector]
     public int do_index; // Индекс в массиве, какую точку будем достигать
     [HideInInspector]
-    public  bool go; // Движение
+    public bool go; // Движение
 
 
     public IEnumerator end(GameObject obj)
@@ -26,7 +26,8 @@ public class CharacterAI : MonoBehaviour {
 
     public Transform[] points; // точки к которым перемещается персонаж
 
-    void Update () { // Обработка каждый кадр
+    void Update () 
+    { // Обработка каждый кадр
 		if(go) // Включили движение персонажа к объектам
         {
             nav.destination = points[do_index - 1].position; // Точки, цели в массиве points

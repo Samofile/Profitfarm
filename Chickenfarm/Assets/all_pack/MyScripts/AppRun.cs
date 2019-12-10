@@ -7,6 +7,9 @@ public class AppRun : MonoBehaviour
 {
     [SerializeField] Text chickenCount;
     [SerializeField] Text eggCount;
+    [SerializeField] ParticleSystem waterParticles;
+    public Vector3 center;
+    public Vector3 size;
     public GameObject myChicken;
     public GameObject myEgg;
     public int n = 0;
@@ -25,15 +28,30 @@ public class AppRun : MonoBehaviour
 
     }
 
-    public Vector3 center;
-    public Vector3 size;
+    void Update()
+    {
+        n = int.Parse(Menu.staticChickenCount);
+        k = int.Parse(Menu.staticEggCount);
+        if (n > 0 && setChickens) {
+            StartCoroutine(MakeChickens(n));
+            StartCoroutine(MakeEggs(k));
+            setChickens = false;
+            setEggs = false;
+        }
+        //Debug.Log("setChickens-1: " + setChickens);
+        if (Menu.doDrink){
+            waterParticles.Play();
+        }
+
+    }
 
     private IEnumerator MakeChickens(int n)
     {
         for (int i = 0; i < n; i++)
         {
             Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2), Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
-            GameObject newChicken = Instantiate(myChicken, pos, Quaternion.identity);
+            //GameObject newChicken = Instantiate(myChicken, pos, Quaternion.identity);
+            GameObject newChicken = Instantiate(myChicken, pos, transform.rotation);
             newChicken.transform.localScale = new Vector3(1f, 1f, 1f);
             newChicken.SetActive(true);
             chickenCount.text = i.ToString();
@@ -62,23 +80,4 @@ public class AppRun : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        n = int.Parse(Menu.staticChickenCount);
-        k = int.Parse(Menu.staticEggCount);
-        if (n > 0 && setChickens) {
-            StartCoroutine(MakeChickens(n));
-            StartCoroutine(MakeEggs(k));
-            setChickens = false;
-            setEggs = false;
-        }
-        //Debug.Log("setChickens-1: " + setChickens);
-    }
-
-    public void OnGUI() 
-    {
-        //GUI.
-        //GUIDrawRect (Color.blue);
-        //Debug.Log("Тут-2");
-    }
 }

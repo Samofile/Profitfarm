@@ -9,6 +9,7 @@ TagManager:
   - ActionButtons
   - PlayerName
   - Stuff
+  - Egg
   layers:
   - Default
   - TransparentFX
