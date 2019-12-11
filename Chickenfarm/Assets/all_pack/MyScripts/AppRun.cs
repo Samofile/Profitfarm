@@ -13,6 +13,7 @@ public class AppRun : MonoBehaviour
     public GameObject myChicken;
     public GameObject myEgg;
     public GameObject[] chickens;
+    public GameObject[] eggs;
     public int n = 0;
     public int k = 0;
     public bool setChickens = true;
@@ -42,6 +43,7 @@ public class AppRun : MonoBehaviour
         if (k != int.Parse(Menu.staticEggCount)) {setEggs = true;}
         k = int.Parse(Menu.staticEggCount);
         if (k > 0 && setEggs) {
+            eggs = GameObject.FindGameObjectsWithTag("Egg");
             StartCoroutine(MakeEggs(k));
             setEggs = false;
         }
@@ -71,7 +73,8 @@ public class AppRun : MonoBehaviour
     }
 
     private IEnumerator MakeEggs(int k)
-    {
+    {        
+        if (eggs != null) { for(int i = 0; i < eggs.Length; i++) { Destroy(eggs[i],0); }}
         for (int i = 0; i < k; i++)
         {
             Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2), Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
