@@ -2412,6 +2412,7 @@ MonoBehaviour:
   size: {x: 10, y: 0.11, z: 30}
   myChicken: {fileID: 1832591237}
   myEgg: {fileID: 1012815377}
+  chickens: []
   n: 0
   k: 0
   setChickens: 0
@@ -4123,7 +4124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437386, guid: 28b84caef8a775346bad0707768b08d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.211
+      value: -1.663
       objectReference: {fileID: 0}
     - target: {fileID: 437386, guid: 28b84caef8a775346bad0707768b08d0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4131,7 +4132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 437386, guid: 28b84caef8a775346bad0707768b08d0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.436
+      value: -1.178
       objectReference: {fileID: 0}
     - target: {fileID: 437386, guid: 28b84caef8a775346bad0707768b08d0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -7297,7 +7298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25c966c2168db4d2094a91f236a4ab6b, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 25c966c2168db4d2094a91f236a4ab6b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11211,7 +11212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 35c21acb1cc46bd429273917cd038361, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: chicken
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 35c21acb1cc46bd429273917cd038361, type: 3}
       propertyPath: m_IsActive

@@ -13,7 +13,6 @@ public class Menu : MonoBehaviour
     [SerializeField] Text chickenCount;
     [SerializeField] Text eggCount;
 
-
     public GameObject[] clearObj;
     public GameObject[] eggsObj;
     public static string staticChickenCount;
@@ -54,7 +53,7 @@ public class Menu : MonoBehaviour
     {
         while (true)
         {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(3f);
         WWWForm form = new WWWForm();
         form.AddField("playerPhone", Login.staticPlayerPhone);
         WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/chickenscount.php", form);
@@ -70,7 +69,7 @@ public class Menu : MonoBehaviour
     {
         while (true)
         {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(3f);
         WWWForm form = new WWWForm();
         form.AddField("playerPhone", Login.staticPlayerPhone);
         WWW req = new WWW("http://xn--80ajvps.xn--80apnfegdoqc.xn--p1ai/eggscount.php", form);
@@ -78,7 +77,6 @@ public class Menu : MonoBehaviour
         eggCount.text = req.text;
         staticEggCount = req.text;
         //Debug.Log("staticEggCount: " + staticEggCount);
-        //Debug.Log("Chicken Count: " + req.text);
         }
     }
 
@@ -106,9 +104,9 @@ public class Menu : MonoBehaviour
         Debug.Log("Stuff weight: " + clearObj.Length);
         for(int i = 0; i < clearObj.Length; i++)
         {
-            Destroy(clearObj[i],0); // Удаление объекта с задержкой
             //Chikens[i].GetComponent<chick>().anim.enabled = false;
             //Chikens[i].SetActive(true);
+            Destroy(clearObj[i],0); // Удаление объекта с задержкой
         }
     }
 

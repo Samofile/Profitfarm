@@ -12,6 +12,7 @@ public class AppRun : MonoBehaviour
     public Vector3 size;
     public GameObject myChicken;
     public GameObject myEgg;
+    public GameObject[] chickens;
     public int n = 0;
     public int k = 0;
     public bool setChickens = true;
@@ -30,28 +31,34 @@ public class AppRun : MonoBehaviour
 
     void Update()
     {
+        if (n != int.Parse(Menu.staticChickenCount)) {setChickens = true;} // if chicken count changed
         n = int.Parse(Menu.staticChickenCount);
-        k = int.Parse(Menu.staticEggCount);
         if (n > 0 && setChickens) {
+            chickens = GameObject.FindGameObjectsWithTag("chicken");
             StartCoroutine(MakeChickens(n));
-            StartCoroutine(MakeEggs(k));
             setChickens = false;
+        }
+
+        if (k != int.Parse(Menu.staticEggCount)) {setEggs = true;}
+        k = int.Parse(Menu.staticEggCount);
+        if (k > 0 && setEggs) {
+            StartCoroutine(MakeEggs(k));
             setEggs = false;
         }
         //Debug.Log("setChickens-1: " + setChickens);
         if (Menu.doDrink){
             waterParticles.Play();
         }
-
     }
 
     private IEnumerator MakeChickens(int n)
     {
+        if (chickens != null) { for(int i = 0; i < chickens.Length; i++) { Destroy(chickens[i],0); }}
         for (int i = 0; i < n; i++)
         {
             Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2), Random.Range(-size.y / 2, size.y / 2), Random.Range(-size.z / 2, size.z / 2));
-            //GameObject newChicken = Instantiate(myChicken, pos, Quaternion.identity);
-            GameObject newChicken = Instantiate(myChicken, pos, transform.rotation);
+            GameObject newChicken = Instantiate(myChicken, pos, Quaternion.identity);
+            //GameObject newChicken = Instantiate(myChicken, pos, transform.rotation);
             newChicken.transform.localScale = new Vector3(1f, 1f, 1f);
             newChicken.SetActive(true);
             chickenCount.text = i.ToString();
